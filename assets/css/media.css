@@ -1,0 +1,333 @@
+/*  media max-width 1200px */
+
+@media(max-width:1200px){
+    .mybtn button{
+        padding: 10px 20px;
+    }
+    .menu ul li{
+        margin:20px ;
+    }
+ 
+}
+
+
+/*  media max-width 991px */
+
+@media only screen and (max-width: 991px) {
+    .menu ul li{
+        margin:20px 30px;
+    }
+   .myheader{
+       display: flex;
+       /* flex-wrap: nowrap; */
+       justify-content: center;
+       align-items: center;
+   }
+   .logo,.menu,.mybtn{
+       width: 100%;
+       text-align: center;
+   }
+    .header-text-box>h1{
+        font-size: 22px;
+    }
+    .header-text-box{
+        padding: 50px ;
+    }
+    .header-text-box p{
+        padding: 0 30px ;
+        font-size: 16px ;
+     }
+     .benefits{
+        width: 50%;
+        padding: 15px 16px;
+    }
+
+    .records>div{
+        max-width: 200px;
+        border-radius: 10px;
+        padding: 10px 20px;
+     }
+     .rekord span{
+             font-size: 60px;
+     }
+
+}
+
+/*  media max-width 767px */
+@media (max-width:767px)  {
+    .menu ul li{
+        margin: 15px 10px;
+    }
+    .header-text-box>h1{
+        font-size: 30px;
+    }
+    .header-text-box{
+        padding: 40px ;
+    }
+    .header-text-box p{
+        padding: 0 30px ;
+        font-size: 16px;
+     }
+     .benefits{
+        width: 50%;
+        padding: 15px 16px;
+    }
+    .work-block-one{
+        margin-top: 200px !important;
+     }
+     .work-block-two{
+        margin-top: 166px !important;
+     }
+     .work-block-thre{
+        margin-top: 53px !important;
+    }
+    .work-block-four{
+        margin-top: 210px !important;
+    }
+    .work-block-one,.work-block-two{
+        font-size: 15px;
+        margin:0 30px 0 0;
+       
+        
+    }
+    .work-block-thre,.work-block-four{
+        font-size: 15px;
+        margin:0 0 0 30px;
+    }
+    .records,.team-boxs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .records>div{
+     margin: 15px auto;
+    }
+    .records>div{
+        max-width: 250px;
+     }
+     .section-team{
+        margin-top: 920px;
+        text-align: center;
+    }
+    .team-boxs>div{
+        margin-top: 30px;
+    }
+    .footer-sec1{
+        font-size: 13px;
+    }
+    .log-text{
+        font-size: 7px;
+    }
+    .logo-footer{
+        font-size: 18px;
+    }
+    .letter{
+        margin-left: 18px;
+    }
+    .menu-item-btn button{
+        padding: 4px 30px;
+    }
+    .log-text{
+        max-width: 100px;
+    }
+}
+
+
+/*  media max-width 576px */
+
+@media screen and (max-width:576px) and (min-width: 320px){
+    .menu ul li{
+        margin: 5px 10px;
+    }
+    .menu,.mybtn{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: start;
+    }
+    .line{
+        padding: 20px 0;
+        display: inline-block ;
+        position: relative;
+        top: 0;
+    }
+    .line>span{
+        display: flex;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        z-index: 1;
+        margin: 5px;
+        position: absolute;
+        right: 0;
+    
+    }
+    .line1{
+        top: 0;
+    }
+    .line2{
+        top: 7px;
+    }
+    .line3{
+        top: 14px;
+    }
+    .header-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-text-box h1{
+        padding: 0 ;
+        font-size: 20px;
+     }
+    .header-text-box{
+        padding: 20px ;
+    }
+    .header-text-box p{
+        padding: 0;
+        font-size: 15px ;
+     }
+     .header-btn{
+        margin: 10px;
+        width: 100%;
+    }
+    .header-btn button{
+       margin: 10px auto;
+       background-color: white;
+       color: #345b72; 
+       padding: 7px 20px;
+       border-radius: 30px;
+       border: 0;
+       width: 80%;
+    }
+    .benefits{
+        width: 100%;
+        padding: 15px 30px;
+        margin: 0 20px;
+    }
+    .plan-text h3{
+        font-size: 25px;
+     }
+     .plan-text p{
+         font-size: 15px;
+      }
+     .planning-btn button{
+        padding: 7px 30px;
+        font-size: 15px;
+
+     }
+    .work-mobile{
+            position: relative;
+            height: 600px;
+            /* padding: 100px 0; */
+    }
+    .work-box1,.work-box2,.work-box3{
+        position: absolute;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    .work-box2{
+        left: 10px;
+    }
+    .works-boxs,.work-block-one h3,.work-block-two h3,.work-block-one,.work-block-two{
+        text-align: left;
+    }
+    .work-block-one,.work-block-two,.work-block-thre,.work-block-four{
+        font-size: 15px;
+        margin:0 0 0 30px;
+       padding: 0 15px;
+        
+    }
+    .work-btn button{
+        margin: 70px 0 50px;
+    }
+    .help-list div{
+        margin:0px 20px;
+    }
+    .help-list{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+    .help-list ul>li{
+        list-style: none;
+    }
+    .help-list{
+        margin: 25px 0 35px;
+    }
+    .help-text{
+        padding: 0 30px;
+    }
+
+    .records{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .records>div{
+     margin: 15px auto;
+    }
+    .records>div{
+        max-width: 250px;
+     }
+     .work-title{
+        margin: 25px auto ;
+     }
+     .footer-sec1{
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+     }
+     .team-boxs>div{
+        /* margin-top: 30px; */
+    }
+    .footer-sec1{
+        font-size: 16px;
+    }
+    .log-text{
+        font-size: 9px;
+    }
+    .logo-footer{
+        font-size: 21px;
+    }
+    .letter{
+        margin-left: 20px;
+    }
+    .menu-item-btn button{
+        padding: 7px 40px;
+    }
+    .log-text{
+        max-width: 170px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .let-foot{
+        position: relative;
+        /* width: 30px ; */
+    }
+  
+    .letter-mail{
+        margin: 0 auto;
+        width: 150px;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    .letter{
+        margin-left: 27px;
+    }
+    .menu-item-btn{
+        margin: 30px auto;
+    }
+    .footer-box span{
+        padding-top: 10px;
+     }
+
+}
+
+
+

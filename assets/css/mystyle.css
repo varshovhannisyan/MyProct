@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Circe" !important;
+    box-sizing: border-box;
+}  
+.container{
+    margin: 0 auto;
+    padding:0 15px;
+    max-width: 1200px;
+}
+.myheader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+       
+            /* header */
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    z-index: 1;
+}
+.menu ul li{
+    list-style: none;
+    margin: 25px 30px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: #dee9f2;
+   padding: 0;
+   margin: 0;
+}
+.mybtn button{
+    background-color: white;
+    color: #406075;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 0;
+    margin: 15px auto;
+}
+.active::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    top: 18px;
+    left: 0px;
+    background-color: #dee9f2;
+}
+.active-li{
+    position: relative;
+}
+.logo a{
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    font-family: "Circe";
+    text-decoration: none;
+}
+.logo{
+    margin: 25px 0;
+}
+.menu>ul>li{
+    position: relative;
+}
+a:hover::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    top: 18px;
+    left: 0px;
+    background-color: #dee9f2;
+    animation-name: menu-anim;
+    animation-duration: 0.7s;
+
+}
+@keyframes menu-anim {
+    0%   {background-color:#dee9f2;left:49%; width: 1%;}
+    75% {background-color:#dee9f2;left:0; width:100%;}
+  }
+
+.header-box::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #2c87b9;
+    position: absolute;
+    left: 0;
+    top: 65px;
+}
+
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+}
+convas{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header-text-box{
+    padding: 80px 0 60px;
+    text-align: center;
+    color: white;
+}
+.header-text-box h1{
+   font-weight: bold;
+   padding: 0 95px;
+   font-size: 42px;
+}
+.header-text-box p{
+    padding: 0 250px;
+    font-size: 18px;
+ }
+hr{
+    border: 2px solid white;
+    width: 5%;
+    margin: 15px auto;
+    background-color: white;
+}
+.header-btn{
+    margin: 50px;
+}
+.header-btn button{
+   margin: 10px;
+   background-color: white;
+   color: #345b72; 
+   padding: 10px 40px;
+   border-radius: 30px;
+   border: 0;
+}
+.active-menu{
+    display: block;
+}
+
+/* header end */
+
+
+
+/* section Our Benefits start  */
+
+.benefits-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.benef{
+    text-align: center;
+    margin: 60px 0 40px;
+    font-size: 28px;
+    color: #232323;
+
+}
+.myPhotos{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 67px;
+    height: 67px;
+    margin: 15px auto;
+}
+.benefits{
+    width: 17%;
+    padding: 15px 16px;
+    color: #4f4f4f;
+    margin: 0 auto;
+}
+.line{
+    padding: 20px 0;
+    display: none;
+    cursor: pointer;
+}
+.line>span{
+    display: flex;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    z-index: 1;
+    margin: 5px;
+    transition: 0.5s;
+
+}
+
+
+/* section Our Benefits end  */
+
+/* Planning start  */
+.planning{
+    margin-bottom: 100px;
+}
+.plan-text{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.plan-text h3{
+   font-size: 28px;
+}
+.plan-text p{
+    font-size: 18px;
+    padding: 10px 0;
+ }
+.planning-btn button{
+    margin: 10px;
+   /* background-color: white;*/
+   color: #345b72; 
+   padding: 10px 40px;
+   border-radius: 30px;
+   border: 0;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+/* Planning end  */
+
+
+
+/* mork section start */
+
+.section-works{
+   background-color: #f6f6f6;
+   margin-top: 420px;
+}
+.works-boxs{
+    display: flex;
+    justify-content: center;
+}
+.work-block-one,.work-block-two,.work-block-thre,.work-block-four{
+    max-width: 276px;
+    margin: 0 65px;
+}
+.works-boxs h3{
+    margin: 7px auto;
+}
+.title-work{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.work-lines{
+    width: 1px;
+    height: 450px;
+    background-color: #dadada;
+    margin: 70px auto;
+    position: relative;
+}
+.work-line{
+    background-color: #1189cc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -17px;
+}
+.two-line{
+   top: 144px;
+}
+.thre-line{
+    top: 288px;
+ }
+ .four-line{
+    top: 432px;
+ }
+ .work-block-one{
+    margin-top: 200px;
+ }
+ .work-block-two{
+    margin-top: 166px;
+ }
+ .work-block-one h3,.work-block-two h3,.work-block-one,.work-block-two{
+    text-align: right;
+}
+ .work-block-thre{
+    margin-top: 53px;
+}
+.work-block-four{
+    margin-top: 210px;
+}
+.work-btn{
+    text-align: center;
+    
+}
+.work-btn button{
+    padding: 10px 50px;
+    color: white;
+    background-color: #1189cc;
+    border: 0;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+/* mork section end */
+
+
+
+/* section-help  start */
+
+.help-list{
+    display: flex;
+    justify-content: center;
+}
+.help-boxs p{
+    text-align: center;
+}
+.help-title{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 70px 0 20px;
+}
+.help-list{
+    margin: 45px 0 65px;
+}
+.help-list div{
+    margin:0px 60px;
+    font-weight: bold;
+}
+.help-others{
+    font-size: 16px;
+    padding-bottom: 70px;
+    color: #232323;
+}
+
+/* section-help  end */
+
+/* section-record start */
+.section-records{
+    color: white;
+}
+.records{
+    display: flex;
+    justify-content: space-between;
+}
+.records>div{
+   max-width: 250px;
+   border: 1px solid white;
+   border-radius: 10px;
+   padding: 20px 30px;
+   text-align: center;
+}
+.records-title{
+    font-size: 28px;
+    margin: 65px auto;
+    font-weight: bold;
+    text-align: center;
+}
+.rekord span{
+        font-size: 72px;
+        font-family: "Circe";
+        font-weight: bold;
+}
+.more-than{
+    font-size: 14px;
+    font-family: "Circe";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+/* section-record end */
+
+/* section-team start */
+  .section-team{
+      margin-top: 500px;
+      text-align: center;
+      margin-bottom: 70px;
+  }
+  .team-image{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 215px;
+      height: 215px;
+      border-radius: 50%;
+      
+  }
+  .work-social{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 21px;
+    height: 21px;
+    margin: 10px 5px;
+  }
+  .work-socials{
+    display: flex;
+   justify-content: center;
+  }
+  .team-boxs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .work-title{
+    margin: 65px auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+.team-box h4{
+    margin-top: 20px;
+}
+.work-grey{
+        font-size: 14px;
+        font-family: "Circe";
+        color: rgb(172, 180, 193);    
+      
+}
+
+  /* section-team end */
+
+
+  /* footer */
+  footer{
+      background-color: #1c2a36;
+      color: white !important;
+      margin-top: 327px;
+  }
+  .all-right{
+    
+      color: #57616a;
+      text-align: center;
+      padding: 15px;
+      border-top: 1px solid #646e76;
+  }
+  .footer-sec1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .log-text{
+    font-size: 9px;
+    font-family: "Myriad Pro";
+    color: rgba(255, 255, 255, 0.412);
+}
+.log-text{
+    max-width: 160px;
+}
+.logo-footer{
+        font-size: 21px;
+        font-family: "Circe";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        padding-bottom: 10px;
+}
+.footer-sec1{
+    padding: 30px 0;
+}
+.menu-item{
+    padding: 5px 0;
+}
+.footer-box span::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/email.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 5px;
+    left: 0 !important;
+}
+.footer-box span{
+   padding-top: 10px;
+ 
+}
+.let-foot{
+    position: relative;
+    width: 30px;
+}
+.letter{
+    margin-left: 20px;
+}
+.menu-item-btn button{
+    padding: 7px 40px;
+    border: 1px solid white;
+    background-color: #1c2a36;
+    color: white;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+      
+  
